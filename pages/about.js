@@ -1,15 +1,15 @@
 import Navbar from "../components/Navbar";
 import withTransition from "../HOC/withTransition";
 
-function Home() {
+function About() {
   return (
     <>
       <Navbar />
-      <main>
-        <h1>Home Page</h1>
+      <main className="salmon">
+        <h1>About Page</h1>
       </main>
     </>
   );
 }
 
-export default withTransition(Home);
+export default withTransition(About);

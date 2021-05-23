@@ -14,3 +14,58 @@ a {
 * {
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+}
+
+nav {
+  width: 100%;
+  background: purple;
+  color: #fff;
+  padding: 10px;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: rebeccapurple;
+  color: #fff;
+}
+
+main.orange {
+  background: orange;
+}
+
+main.salmon {
+  background: salmon;
+}
+
+  .slide-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: #066bb8;
+    transform-origin: left;
+  }
+
+  .slide-out {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: #066bb8;
+    transform-origin: right;
+  }
